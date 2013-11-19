@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* Mishbah Razzaque <mishbha@jp74.com>
+* Mishbah Razzaque <mishbah@jp74.com>
 
 Contributors
 ------------

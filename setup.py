@@ -29,7 +29,7 @@ setup(
     description='Drag-and-drop ordering for objects and inlines in Django admin using django-suit.',
     long_description=readme + '\n\n' + history,
     author='Mishbah Razzaque',
-    author_email='mishbha@jp74.com',
+    author_email='mishbah@jp74.com',
     url='https://github.com/JP74/django-suit-sortable',
     packages=[
         'suit_sortable',
