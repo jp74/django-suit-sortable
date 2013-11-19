@@ -1,11 +1,11 @@
 django-suit-sortable
 ====================
 
-Drag-and-drop ordering for objects and inlines in Django admin using [django-suit](https://github.com/darklow/django-suit)
+Drag-and-drop ordering for objects and inlines in Django admin using [django-suit](https://github.com/darklow/django-suit).
 
 To use suit_sortable you must do following:
 
-In your ``models.py`` file add integer property for sortable to you model::
+In your ``models.py`` file add integer property for sortable to you model:
 
     from django.db import models
 
@@ -62,4 +62,4 @@ SortableStackedInline:
 
 Since sortables are based on JavaScript solution, there are known limitations:
 
-1. They doesn't work with pagination.
+1. It doesn't work with pagination.
