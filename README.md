@@ -3,6 +3,15 @@ django-suit-sortable
 
 Drag-and-drop ordering for objects and inlines in Django admin using [django-suit](https://github.com/darklow/django-suit).
 
+## Installation
+	pip install -e git://github.com/JP74/django-suit-sortable.git#egg=suit_sortable
+
+## Configuration
+
+1. Add `suit_sortable` to your `INSTALLED_APPS`.
+2. Ensure `django.core.context_processors.static` is in your `TEMPLATE_CONTEXT_PROCESSORS`.
+
+
 To use suit_sortable you must do following:
 
 In your ``models.py`` file add integer property for sortable to you model:
