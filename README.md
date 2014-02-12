@@ -37,14 +37,17 @@ Example assuming a model named "Category":
 
 
 ### Django Admin Integration
-To enable sorting in the admin, you need to inherit from `SortableAdmin`:
+To enable sorting in the admin, you need to inherit from `SortableAdmin` 
+and add a `list_editable` column for the `position` field:
 
     from django.contrib import admin
     from myapp.models import MySortableClass
     from suit_sortable.admin import SortableAdmin
 
     class MySortableAdminClass(SortableAdmin):
-        """Any admin options you need go here"""
+        list_display = (..., 'position',)
+        list_editable = ('position',)
+        """Any other admin options you need go here"""
 
     admin.site.register(MySortableClass, MySortableAdminClass)
 
